@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.coachhe</groupId>
+    <artifactId>springboot-helloworld</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+<!--    第1步 导入parent   -->
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.5.5</version>
+    </parent>
+
+    <properties>
+        <log4j2.version>2.17.0</log4j2.version>
+    </properties>
+
+
+
+    <dependencies>
+        <!--    第2步 导入web场景启动器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--      这个插件安装之后，将可以程序打包成jar包       -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.5</version>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

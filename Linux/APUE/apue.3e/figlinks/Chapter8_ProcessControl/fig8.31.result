@@ -1,0 +1,17 @@
+
+command: sleep 5
+  real:     5.01
+  user:     0.00
+  sys:      0.00
+  child user:     0.00
+  child sys:      0.00
+normal termination, exit status = 0
+
+command:  date
+2020年 4月25日 星期六 06时33分42秒 CST
+  real:     0.00
+  user:     0.00
+  sys:      0.00
+  child user:     0.00
+  child sys:      0.00
+normal termination, exit status = 0

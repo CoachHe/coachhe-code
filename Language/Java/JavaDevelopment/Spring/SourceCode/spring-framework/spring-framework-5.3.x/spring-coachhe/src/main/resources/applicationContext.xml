@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="testStr1" class="com.coachhe.spring.Bean.MyTestBean">
+		<property name="testStr" value="testStr1"/>
+	</bean>
+
+	<bean id="testStr2" class="com.coachhe.spring.Bean.MyTestBean2">
+		<property name="testStr2" value="testStr2"/>
+	</bean>
+
+	<bean class="com.coachhe.spring.BeanFactoryPostProcessor.MyBFPP"/>
+</beans>

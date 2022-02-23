@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "mybatis-3-mapper.dtd">
+
+<mapper namespace="com.coachhe.springcloud.dao.PaymentDao">
+    <!-- 这里的parameterType可以直接用Payment是因为在application.yml中配置了
+     所有entity都在com.coachhe.springcloud.entities类下-->
+    <insert id="create" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
+        insert into payment(serial)
+        values (${serial});
+    </insert>
+
+    <resultMap id="BaseResultMap" type="com.coachhe.springcloud.entities.Payment">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <id column="serial" property="serial" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">
+        select * from payment where id = ${id}
+    </select>
+</mapper>

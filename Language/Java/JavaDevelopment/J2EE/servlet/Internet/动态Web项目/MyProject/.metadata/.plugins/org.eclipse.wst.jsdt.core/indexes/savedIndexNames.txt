@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+F:\OneDrive - stu.hit.edu.cn\java\2_Java_Web_basic\servlet\MyProject\how2j\DynamicWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3997498215.index

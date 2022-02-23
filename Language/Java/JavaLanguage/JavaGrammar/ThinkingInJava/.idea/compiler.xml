@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Chapter8_多态" />
+        <module name="Chapter15_泛型" />
+        <module name="Chapter11_持有对象" />
+        <module name="Chapter13_字符串" />
+        <module name="Chapter20_注解" />
+        <module name="Chapter21_并发" />
+        <module name="Chapter14_类型信息" />
+        <module name="Chapter12_通过异常处理错误" />
+        <module name="Chapter17_容器深入研究" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

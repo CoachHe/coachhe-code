@@ -1,0 +1,8 @@
+task hello {
+	doLast {
+		println "Hello World!"
+	}
+}
+
+compile "com.sparkjava:spark-core:2.6.0"
+compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.21'
